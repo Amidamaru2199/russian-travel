@@ -7,45 +7,45 @@
 
 .page__container {
     margin: 0 auto;
-    padding: 28px 0;
+    padding: 28px 48px;
 }
 
+
+
+
+
 .container {
-   
     max-width: 1280px;
     background-color: #2A2C2F;
 }
 
 
+
 .header {
-    
     background-color: #2A2C2F;
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
 }
 
-.page__header {
+.container__header {
     margin: auto;
 }
 
 
 .header__logo {
-    
     background-color: #2A2C2F;
 }
 
 
 
 .header__links {
-    
     display: flex;
     align-items: flex-end;
 }
 
 
 .header__link {
-    
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -54,7 +54,6 @@
     text-align: right;
     color: #FFFFFF;
     margin-right: 18px;
-    
 }
 
 .header__link:last-of-type {
@@ -67,19 +66,17 @@
 
 
 
-.page__lead {
+.container__lead {
     margin: 0 auto;
 }
 
 .lead {
-    
     max-width: 984px;
     background-color: #2A2C2F;
 }
 
 
 .lead__title {
-    
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -93,7 +90,6 @@
 
 
 .lead__subtitle {
-    
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -113,7 +109,6 @@
 }
 
 .lead__caption {
-    
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -131,17 +126,15 @@
 
 
 .intro {
-    
     max-width: 690px;
 }
 
 
-.page__intro {
+.container__intro {
     margin: 92px 442px 92px 148px;
 }
 
 .intro__title {
-    
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -172,8 +165,6 @@
     font-size: 12px;
     line-height: 18px;
     /* or 150% */
-
-
     color: #FFFFFF;
     list-style: none;
     padding: 0;
@@ -181,7 +172,7 @@
 }
 
 
-.list__item-span {
+.intro__span {
     font-weight: bold;
 }
 
@@ -196,26 +187,34 @@
     max-width: 1184px;
 }
 
-.page__photo-grid {
+.container__photo-grid {
     margin: auto;
 }
 
 
 
-.page__places {
+
+
+
+
+
+
+
+
+.container__place {
     margin: auto;
     margin-top: 92px;
 }
-.places {
+
+.place {
   max-width: 984px;
-  
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
   row-gap: 48px;
 }
+
 .place__title {
-  
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -226,14 +225,31 @@
   margin: 0;
   color: #FFFFFF;
 }
+
 .place__website {
-  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.website__url-heading {
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.place__url-heading {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -244,8 +260,8 @@
   letter-spacing: 2px;
   color: #AAAAAA;
 }
-.website__link {
-  
+
+.place__link {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -256,7 +272,7 @@
   color: #FFFFFF;
 }
 
-.website__link:hover {
+.place__link:hover {
     opacity: 0.5;
 }
    
@@ -266,11 +282,9 @@
   
 }
 .place__paragraphs {
-  
   min-width: 484px;
 }
 .place__paragraph {
-  
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -282,7 +296,7 @@
   min-width: 484px;
 }
 .place__paragraph:last-of-type {
-  margin-top: 26px;
+    margin-top: 26px;
 }
 
 
@@ -292,12 +306,11 @@
 
 
 .cover {
- max-width: 1184px;
- 
+    max-width: 1184px;
 }
 
 
-.page__cover {
+.container__cover {
     margin: 92px auto;
 }
 
@@ -341,7 +354,6 @@
     text-align: center;
     margin: 245px auto 32px;
     color: #FFFFFF;
-    
 }
 
 
@@ -363,14 +375,12 @@
 
 
 
-.page__footer {
-    
+.container__footer {
     margin: 0 auto;
 }
 
 
 .footer {
-   
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
@@ -381,8 +391,12 @@
     
 }
 
+
+
+
+
+
 .footer__link {
-    
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -397,8 +411,7 @@
     margin: 0;
 }
 
-.footer__auuthor {
-    
+.footer__author {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -407,9 +420,7 @@
     /* identical to box height, or 114% */
     margin: 0;
     text-align: right;
-
     color: #FFFFFF;
-
 }
 
 
