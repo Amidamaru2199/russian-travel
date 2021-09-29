@@ -1,3 +1,28 @@
 .container__intro {
-    margin: 92px 442px 92px 148px;
+    margin: 92px 0 92px 148px;
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .container__intro {
+        margin: 92px 0 92px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container__intro {
+        margin: 88px 0 92px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container__intro {
+        margin: 64px 16px 92px;
+    }
+}
+
+
+
+

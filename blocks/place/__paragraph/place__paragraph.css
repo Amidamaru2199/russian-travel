@@ -7,9 +7,28 @@
     /* or 29px */
     margin: 0;
     color: #FFFFFF;
-    min-width: 484px;
   }
 
   .place__paragraph:last-of-type {
     margin-top: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph:last-of-type {
+    margin-top: 27px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__paragraph:last-of-type {
+    margin-top: 25px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
 }

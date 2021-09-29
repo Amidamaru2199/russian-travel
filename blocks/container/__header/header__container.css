@@ -1,3 +1,15 @@
 .container__header {
-    margin: auto;
+    margin: 28px 48px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container__header {
+        margin: 28px 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container__header {
+        margin: 16px 16px 0;
+    }
 }
