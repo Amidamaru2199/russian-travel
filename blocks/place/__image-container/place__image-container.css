@@ -16,3 +16,10 @@
         max-width: 340px;
     }
 }
+
+@media screen and (max-width: 622px) {
+    .place__image-container {
+        max-height: 622px;
+        max-width: 622px;
+    }
+}

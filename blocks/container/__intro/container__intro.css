@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
     .container__intro {
-        margin: 88px 0 92px 24px;
+        margin: 88px 24px 92px;
     }
 }
 

@@ -12,3 +12,12 @@
         
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        max-width: 928px;
+        margin: 40px 0 0;
+        
+    }
+}
