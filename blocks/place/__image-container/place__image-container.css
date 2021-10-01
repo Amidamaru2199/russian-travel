@@ -23,3 +23,9 @@
         max-width: 622px;
     }
 }
+
+@media screen and (max-width: 622px) {
+    .place__image-container {
+        max-height: 320px;
+    }
+}
