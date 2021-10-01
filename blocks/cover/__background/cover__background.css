@@ -2,7 +2,8 @@
     background-image: url(../../../images/__background.png);
     background-size: cover;
     background-position: center;
-    max-width: 1184px;
+    hmax-width: 1184px;
+    width: 100%;
     min-height: 740px;
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@
 
 
 
-.cover__background:hover {
+.cover__background:hover::after {
     opacity: 0.8;
 }
 
@@ -40,6 +41,12 @@
 @media screen and (max-width: 768px) {
     .cover__background {
         min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .cover__background {
+        min-height: 300px;
     }
 }
 
