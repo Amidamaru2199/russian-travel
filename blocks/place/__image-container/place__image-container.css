@@ -1,31 +1,22 @@
 .place__image-container {
-    max-height: 460px;
+    
 }
 
 
 @media screen and (max-width: 1024px) {
     .place__image-container {
-        max-height: 440px;
         max-width: 440px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__image-container {
-        max-height: 340px;
         max-width: 340px;
     }
 }
 
 @media screen and (max-width: 622px) {
     .place__image-container {
-        max-height: 622px;
         max-width: 622px;
-    }
-}
-
-@media screen and (max-width: 622px) {
-    .place__image-container {
-        max-height: 320px;
     }
 }
