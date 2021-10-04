@@ -9,13 +9,13 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .place__image-container {
         max-width: 340px;
     }
 }
 
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 666px) {
     .place__image-container {
         max-width: 622px;
     }
