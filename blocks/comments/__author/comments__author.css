@@ -7,3 +7,10 @@ line-height: 22px;
 
 color: #FFFFFF;
 }
+
+@media screen and (max-width: 800px) {
+    .comments__author {
+        order: 2;
+        
+    }
+}

@@ -3,3 +3,11 @@
     width: 97px;
     height: 97px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .comments__image {
+        order: 1;
+        
+    }
+}

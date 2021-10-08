@@ -12,6 +12,7 @@
 @import url(../blocks/container/__intro/container__intro.css);
 @import url(../blocks/container/__photo-grid/container__photo-grid.css);
 @import url(../blocks/container/__places/container__places.css);
+@import url(../blocks/container/__video/container__video.css);
 @import url(../blocks/container/__comments/container__comments.css);
 @import url(../blocks/container/__cover/container__cover.css);
 @import url(../blocks/container/__footer/container__footer.css);
@@ -58,6 +59,19 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__image-container/place__image-container.css);
+
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__subtitle/video__subtitle.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__image-more/video__image-more.css);
+@import url(../blocks/video/__image-nebo/video__image-nebo.css);
+@import url(../blocks/video/__icon/video__icon.css);
+@import url(../blocks/video/__title-image/video__title-image.css);
+@import url(../blocks/video/__subtitle-image/video__subtitle-image.css);
+@import url(../blocks/video/__duration/video__duration.css);
     
 
 @import url(../blocks/comments/comments.css);

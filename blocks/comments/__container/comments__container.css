@@ -2,3 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+
+@media screen and (max-width: 800px) {
+    .comments__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
